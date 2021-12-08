@@ -1,0 +1,263 @@
+/* NAVIGATION */
+#main{
+    width: 100%;
+    height: 8em;
+    position: sticky;
+}
+ nav{
+     flex-direction: row;
+     justify-content: center
+ }
+
+/* CONTENT */
+#content{
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main-text h1{
+    padding-top: 1em;
+}
+
+.main-text p{
+    padding: 0px;
+    font-size: 1.5em;
+}
+
+
+/* SKILLS */
+.skillsHeading h1{
+    padding: 0px;
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    color: #1c3548;
+    line-height: 0.5em;
+    font-size: 3.5em;
+}
+
+.skillsHeading h4{
+    padding: 0px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    color: #21cfaf;
+    color: grey;
+}
+
+span{
+    font-size: 1.5em;
+    display: flex;
+    flex-flow: row wrap;
+}
+.pps{
+    margin-bottom: 40px;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgb(44, 253, 225);
+    border-radius: 2em;
+}
+.pps h3 {
+    font-size: 2em;
+    padding-bottom: 12px;
+}
+.frontend{
+    padding: 15px 0px;
+    margin-bottom: 40px;
+    padding-left: 11em;
+    padding-right: 11em;
+    background-color: rgb(44, 253, 225);
+    border-radius: 2em;
+    
+}
+.frontend h3{
+    font-size: 2em;
+    padding-bottom: 1px;
+}
+.devTools{
+    margin-bottom: 40px;
+    /* padding: 30px; */
+    padding-left: 12em;
+    padding-right: 12em;
+    background-color: rgb(44, 253, 225);
+    border-radius: 2em;
+}
+
+.devTools h3{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    font-size: 1.5em;
+    padding-bottom: 35px;
+}
+.otherSkills{
+    margin-bottom: 150px;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-color: rgb(44, 253, 225);
+    border-radius: 2em;
+}
+.otherSkills h3{
+    font-size: 1.5em;
+    padding-bottom: 2px;
+    
+}
+
+.skills span{
+    display: flex;
+    justify-content: center;
+}
+
+.pps:hover{
+    background-color:#00ffdd;
+    box-shadow: -1px 3px 30px 1px rgb(59, 59, 59);
+    border-radius: 35px;
+}
+.frontend:hover{
+    background-color:#00ffdd;
+    box-shadow: -1px 3px 30px 1px rgb(59, 59, 59);
+    border-radius: 35px;
+}
+.devTools:hover{
+    background-color:#00ffdd;
+    box-shadow: -1px 3px 30px 1px rgb(59, 59, 59);
+    border-radius: 35px;
+}
+.otherSkills:hover{
+    background-color:#00ffdd;
+    box-shadow: -1px 3px 30px 1px rgb(59, 59, 59);
+    border-radius: 35px;
+}
+
+/* PROJECTS */
+.projectHeading{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 1.75em;
+    display: flex;
+    justify-content: center;
+    color: #1c3548;
+    line-height: 0.5em;
+    font-size: 3.5em;
+}
+
+.project1{
+    display: flex;
+    flex-flow: column wrap;
+}
+.tool{
+    display: inline-flex;
+    padding: 0px;
+    padding: 5px;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+
+.project1 h2{
+    font-size: 2em;
+}
+
+.project1 p{
+    font-size: 1.5em;
+}
+
+.project1 img{
+    display: inline-flex;
+    margin: 0px;
+    margin: auto;
+    /* margin-left: -2em; */
+    /* margin-top: 2em; */
+    height: 35em;
+    width: 38em;
+    justify-content: center;
+}
+/* CF STATS */
+.cfHeading{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 1.75em;
+    display: flex;
+    justify-content: center;
+    color: #1c3548;
+    line-height: 0.5em;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.cfImage{
+    display: inline-flex;
+    justify-items: center;
+    
+}
+
+
+/* CONTACT */
+.rights{
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(124, 255, 189);
+    z-index: -1;
+    opacity: 1;
+}
+
+.contactHeading{
+    padding: 0px;
+    margin: 0px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    padding-bottom: 1.25em;
+
+}
+
+.contactTiles{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 200px;
+    font-size: larger;
+
+}
+
+.phone{
+    padding: 0px;
+    margin: 0em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+   
+    border: 6px solid #1db096;
+    border-radius: 30px;
+}
+
+.email{
+    padding: 0px;
+    margin: 0em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+   border: 6px solid #1db096;
+   border-radius: 30px;
+}
+
+.address{
+    padding: 0px;
+    margin: 0em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    border: 6px solid #1db096;
+    border-radius: 30px;
+}
+
+.contactTiles span{
+    justify-content: center;
+}
